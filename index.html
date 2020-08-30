@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>pointApp</title>
+</head>
+<body class="fullscreen">
+
+<div class="background"></div>
+
+<div class="main_content">
+
+
+    <!----------------------------------Vertical sections---------------------------------->
+    <section data-title="Home" class="section" id="sec1" >
+        <div class="section_container home">
+            <!--dots animation-->
+            <div class="dots">
+                <h2 class="">Всегда ли цели терапии СД2 <br> на поверхности?</h2>
+
+                <p class="dots_p c1_text">Гипогликемия</p>
+                <div class="circle c1_0"></div>
+                <div class="circle c1_1"></div>
+                <div class="circle c1_2"></div>
+
+                <p class="dots_p c2_text">Осложнения СД</p>
+                <div class="circle c2_0"></div>
+                <div class="circle c2_1"></div>
+                <div class="circle c2_2"></div>
+
+                <p class="dots_p c3_text">Цель по HbA1c</p>
+                <div class="circle c3_0"></div>
+                <div class="circle c3_1"></div>
+                <div class="circle c3_2"></div>
+
+                <p class="dots_p c4_text">СС риски</p>
+                <div class="circle c4_0"></div>
+                <div class="circle c4_1"></div>
+                <div class="circle c4_2"></div>
+            </div>
+
+            <div class="arrow_container">
+                <p>Листайте вниз</p>
+                <div class="arrow"></div>
+                <img src="img/background_start.png" alt="arrow" id="background_start">
+            </div>
+
+        </div>
+    </section>
+
+    <section data-title="Mid" class="section "  id="sec2">
+        <div class="section_container">
+            <img src="img/background_mid.png" class="sec_content2" alt="background_mid">
+            <h2 id="sec2_h2">Основа терапии — <br>патогенез СД2</h2>
+        </div>
+    </section>
+
+    <section data-title="End" class="section" id="sec3">
+        <div class="section_container">
+            <div class="sec_bottom">
+                <!--horizontal slider-->
+                <div class="slide_container">
+                    <div>
+                        <input type="range" min="1" max="100" value="100" class="slider" id="Slider_range">
+                        <div class="slider_years">
+                            <p >1998</p>
+                            <p  style="margin-left: 45%">2009</p>
+                            <p  style="margin-left: 40%">2016</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!----------------------------------Horizontal sections---------------------------------->
+
+                <div class="sec_horizontal">
+                    <div class="sec_horizontal_content background_1" d>
+                        <p>Звенья патогенеза СД2</p>
+                        <img src="img/sec_horizontal_1.png" alt="sec_horizontal_1">
+                    </div>
+                    <div class="sec_horizontal_content background_2" >
+                        <p>Смертельный октет</p>
+                        <img src="img/sec_horizontal_2.png" alt="sec_horizontal_2">
+                    </div>
+                    <div class="sec_horizontal_content background_3" >
+                        <p>Звенья патогенеза СД2</p>
+                        <img src="img/sec_horizontal_3.png" alt="sec_horizontal_3">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
