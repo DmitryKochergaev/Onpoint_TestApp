@@ -17,7 +17,7 @@ body {
     transition: top 0.8s;
 }
 
-.dots h2{
+.dots h2 {
     position: absolute;
     width: 100%;
     color: darkblue;
@@ -49,21 +49,6 @@ body {
     background-size: 100% 300%;
     transition: all 1.5s;
     z-index: -10;
-}
-
-.section_1 {
-    background: url('img/background_1.png') center center no-repeat;
-    background-size: contain;
-}
-
-.section_2 {
-    background: url('img/background_2.png') center center no-repeat;
-    background-size: contain;
-}
-
-.section_3 {
-    background: url('img/background_3.png') center center no-repeat;
-    background-size: 96%;
 }
 
 .fullscreen {
@@ -130,7 +115,7 @@ body {
     background-color: orange;
 }
 
-.sec_bottom{
+.sec_bottom {
     height: 100%;
     width: 100%;
     margin-bottom: 200px;
@@ -155,7 +140,7 @@ body {
     cursor: pointer;
 }
 
-.sec_horizontal{
+.sec_horizontal {
     transform: translateY(-25px);
     display: flex;
     width: 300%;
@@ -164,29 +149,31 @@ body {
     transition: all 1.5s;
 }
 
-.slider_years  {
+.slider_years {
     padding-top: 25px;
     display: flex;
     flex-direction: row;
 }
+
 .slider_years p {
     color: white;
 }
 
 
-.sec_horizontal_content{
+.sec_horizontal_content {
     width: 100%;
     position: relative;
 }
 
-.sec_horizontal_content p{
+.sec_horizontal_content p {
     position: absolute;
     left: 10%;
     top: 10%;
     font-size: 35px;
     color: white;
 }
-.sec_horizontal_content img{
+
+.sec_horizontal_content img {
     width: 100%;
 }
 
@@ -194,16 +181,18 @@ body {
     background: url('img/background_1.png');
     background-size: 100%;
 }
+
 .background_2 {
     background: url('img/background_2.png');
     background-size: 100%;
 }
+
 .background_3 {
     background: url('img/background_3.png');
     background-size: 100%;
 }
 
-.slide_container{
+.slide_container {
     width: 80%;
     height: 20px;
     position: absolute;
@@ -213,76 +202,85 @@ body {
     z-index: 10;
 }
 
-.dots_p{
+.dots_p {
     position: absolute;
     font-size: 20px;
     color: darkblue;
 }
 
-.c1_text{
+.c1_text {
     top: 51.6%;
     left: 22%;
 }
-.c2_text{
+
+.c2_text {
     top: 66%;
     left: 36%;
 }
-.c3_text{
+
+.c3_text {
     top: 36%;
     left: 61%;
 }
-.c4_text{
+
+.c4_text {
     top: 63%;
     left: 77%;
 }
 
-.circle{
+.circle {
     position: absolute;
     border-radius: 50%;
     border: 1px solid #cf1437;
 }
 
-.circle.c1_0, .circle.c1_1, .circle.c1_2{
+.circle.c1_0, .circle.c1_1, .circle.c1_2 {
     top: 55.6%;
     left: 26.8%;
     width: 25px;
     height: 25px;
 }
-.circle.c2_0, .circle.c2_1, .circle.c2_2{
+
+.circle.c2_0, .circle.c2_1, .circle.c2_2 {
     top: 70%;
     left: 46.8%;
     width: 15px;
     height: 15px;
 }
-.circle.c3_0, .circle.c3_1, .circle.c3_2{
+
+.circle.c3_0, .circle.c3_1, .circle.c3_2 {
     top: 35%;
     left: 55.4%;
     width: 40px;
     height: 40px;
 }
-.circle.c4_0, .circle.c4_1, .circle.c4_2{
+
+.circle.c4_0, .circle.c4_1, .circle.c4_2 {
     top: 67%;
     left: 80%;
     width: 20px;
     height: 20px;
 }
 
-.circle.c1_0, .circle.c2_0, .circle.c3_0, .circle.c4_0{
+.circle.c1_0, .circle.c2_0, .circle.c3_0, .circle.c4_0 {
     animation: circle 4s 0s infinite;
 }
-.circle.c1_1, .circle.c2_1, .circle.c3_1, .circle.c4_1{
+
+.circle.c1_1, .circle.c2_1, .circle.c3_1, .circle.c4_1 {
     animation: circle 4s 1.33s infinite;
 }
-.circle.c1_2, .circle.c2_2, .circle.c3_2, .circle.c4_2{
+
+.circle.c1_2, .circle.c2_2, .circle.c3_2, .circle.c4_2 {
     animation: circle 4s 2.66s infinite;
 }
-.circle.c1_3, .circle.c2_3, .circle.c3_3, .circle.c4_3{
+
+.circle.c1_3, .circle.c2_3, .circle.c3_3, .circle.c4_3 {
     animation: circle 4s 2.66s infinite;
 }
 
 @keyframes circle {
     0% {
-        background-color: rgba(247,139,31,1);
+        background-color: rgba(247, 139, 31, 1);
         transform: scale(0);
         border: 1px solid rgba(239, 20, 55, 0);
     }
@@ -297,14 +295,14 @@ body {
     }
 }
 
-.arrow_container{
+.arrow_container {
     position: fixed;
     bottom: 0;
     width: 100%;
     transition: all .5s;
 }
 
-.arrow_container p{
+.arrow_container p {
     position: absolute;
     bottom: 60%;
     left: 50%;
@@ -314,11 +312,12 @@ body {
     color: #fff;
 }
 
-.arrow_container img{
+.arrow_container img {
     margin-left: -20px;
     width: 100%;
 }
-.arrow_container .arrow{
+
+.arrow_container .arrow {
     position: absolute;
     width: 25px;
     height: 25px;
