@@ -127,15 +127,18 @@ body {
     height: 15px;
     border-radius: 5px;
     background: rgb(209 234 255);
+    padding: 0;
+
 }
 
 
 .slider::-webkit-slider-thumb {
+    padding: 0;
     -webkit-appearance: none;
     appearance: none;
-    width: 100px;
-    height: 100px;
-    transform: scale(.6);
+    width: 80px;
+    height: 85px;
+    transform: scale(.5);
     background: url('img/slider.png') no-repeat;
     cursor: pointer;
 }
